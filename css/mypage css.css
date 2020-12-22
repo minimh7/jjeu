@@ -1,0 +1,70 @@
+#container {
+        width: 1200px;
+        margin: 0px auto;
+      }
+      #header {
+        width: 1180px;height: 200px;line-height: 100px;
+        padding-left: 20px;
+        background-color: #FAFAD2;
+      }
+      #nav {
+        width: 1200px;height: 70px;background: #FAFAD2; overflow: hidden; color:black; text-align: left; margin-top: 50px; margin-left: 20px;
+      }
+      #nav ul{margin : 0; padding: 3px;width: 1180px;}
+      #nav ul li{
+        display: inline-block; font-family: GmarketSansTTFLight; font-size:25px; list-style-type: none;  border:3px solid black;padding:10px;  border-radius: 0px 20px;  margin:0px 40px 10px 35px; box-shadow: 4px 4px black;}
+      #nav ul li a{
+        color:black; text-decoration: none;
+      }
+      #nav ul li a:hover{
+        color: yellowgreen;
+      }
+      #nav ul li:hover{ color:yellowgreen; border: 3px solid yellowgreen; box-shadow: 5px 5px #D2E3B3; transform: scale(1.1); transition: all 0.3s ease-in-out; }
+
+   
+      #content {
+        width: 900px;
+        height: 750px;
+        background-color:#EBEBDC;
+        float: center;
+        margin-top: 20px;
+        margin-left: 125px;
+        border: 3px solid black;
+
+
+      }
+   
+      
+      @font-face{
+      font-family: 'GmarketSansTTFLight';
+      src:url("GmarketSansTTFLight.ttf");
+
+    }
+  
+ 
+   table{
+      margin:0; padding:0px; font-family: GmarketSansTTFLight; font-size:25px; margin-left: auto; margin-right: auto; text-align: center; text-decoration: none; 
+
+   }
+   td{
+    cursor: pointer;
+    padding: 10px;
+   }
+   p{
+
+     text-align: center;
+
+   }
+   #ha{
+    font-family: GmarketSansTTFLight;
+    font-size: 15px;
+    background-color: navy;
+    padding: 5px;
+    color: white;
+   }
+
+ #footer{
+  font-family: GmarketSansTTFLight;
+    font-size: 15px;
+    padding-left: 800px;
+  }

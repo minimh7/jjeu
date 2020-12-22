@@ -1,0 +1,21 @@
+
+li{
+	padding:10px;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+@font-face{
+      	font-family: 'GmarketSansTTFLight';
+      	src:url("GmarketSansTTFLight.ttf");
+}
+
+ul{
+	font-size: 20px;
+	font-family: GmarketSansTTFLight;
+	list-style: none;
+	padding:0px;
+}

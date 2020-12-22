@@ -1,0 +1,14 @@
+#main-title{
+			color: #0E0338;
+			font-size: 70pt;
+			margin-top: 20%;
+		}
+		@font-face{
+			font-family: 'GmarketSansTTFLight';
+			src:url("GmarketSansTTFLight.ttf");
+		}
+		table{font-family: GmarketSansTTFLight;}
+
+#footer{
+			font-family: GmarketSansTTFLight; font-size: 15px; padding: 150px; padding-left: 1100px;
+		}
